@@ -15,7 +15,7 @@ WORKDIR /app
 # Copy requirements.txt
 COPY requirements.txt .
 COPY app.py .
-
+COPY team.jpg .
 # Cài đặt các dependencies Python
 RUN pip3 install -r requirements.txt
 # Thiết lập command mặc định
